@@ -9,4 +9,8 @@ export class MainComponent implements OnInit {
     constructor() {}
 
     ngOnInit() {}
+
+    address_mapEvent(event) {
+      console.log(event);
+    }
 }
