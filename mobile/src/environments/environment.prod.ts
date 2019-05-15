@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  api: 'http://localhost:8000/',
+  api_sitiosturisticos: 'http://localhost:8000/',
   app_name: 'APP NAME',
 };

@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  api: 'http://localhost:8000/',
+  api_sitiosturisticos: 'http://localhost:8000/',
   gmapapiKey: 'AIzaSyCZQgG8L6ntkJZarveWX9mvy9f9MMOoNDA',
 };
 

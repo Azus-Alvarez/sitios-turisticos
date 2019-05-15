@@ -8,7 +8,7 @@ import { User } from './../../models/profile/User';
 })
 export class UserService {
 
-   url = environment.api + 'user/';
+   url = environment.api_sitiosturisticos + 'user/';
    options = new RequestOptions();
 
    constructor(private http: Http) {
