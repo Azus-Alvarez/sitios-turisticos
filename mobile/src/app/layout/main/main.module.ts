@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
+import { environment } from 'src/environments/environment';
+import { AgmCoreModule } from '@agm/core';
 
 import { IonicModule } from '@ionic/angular';
 
@@ -19,6 +21,7 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
+    AgmCoreModule.forRoot({apiKey: environment.gmapapiKey}),
     RouterModule.forChild(routes)
   ],
   declarations: [MainPage]

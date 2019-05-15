@@ -13,4 +13,8 @@ export class MainPage implements OnInit {
 
   ngOnInit() {
   }
+
+  address_mapEvent(event) {
+    console.log(event);
+  }
 }

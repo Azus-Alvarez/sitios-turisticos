@@ -15,4 +15,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content> main works </ion-content>
+<ion-content>
+  <agm-map col-12 class="gmap" [latitude]="-0.2521379" [longitude]="-78.4922425" [zoom]="15" (mapClick)="address_mapEvent($event)">
+    <agm-marker [latitude]="-0.2521379" [longitude]="-78.4922425" [markerDraggable]="true" (dragEnd)="address_mapEvent($event)" [animation]="'DROP'"></agm-marker>
+  </agm-map>
+</ion-content>
